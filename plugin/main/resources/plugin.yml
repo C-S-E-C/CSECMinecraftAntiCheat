@@ -1,0 +1,18 @@
+name: CSECAntiCheat
+version: 1.0.0
+main: com.csec.anticheat.AntiCheatPlugin
+api-version: 1.20
+author: CSEC
+description: Anti-cheat system with client verification and mod tracking
+commands:
+  anticheat:
+    description: Anti-cheat admin commands
+    usage: /anticheat <reload|status|check <player>>
+    permission: csec.anticheat.admin
+permissions:
+  csec.anticheat.admin:
+    description: Access to all anti-cheat commands
+    default: op
+  csec.anticheat.bypass:
+    description: Bypass anti-cheat checks
+    default: false
