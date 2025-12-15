@@ -11,7 +11,7 @@ import uuid
 from threading import Thread
 
 BANNED_MODS = ['wurst', 'meteor-client', 'liquidbounce', 'aristois', 'sigma', 'impact']
-SERVER_HOST = 'mc.csec.top'  # Changed to localhost for testing, change to your server IP
+SERVER_HOST = 'xxxxxx'  # Changed to localhost for testing, change to your server IP
 SERVER_PORT = 7878
 CHECK_INTERVAL = 30  # seconds
 VERSION = "1.0"
